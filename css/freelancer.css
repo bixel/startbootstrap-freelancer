@@ -1,5 +1,5 @@
 body {
-  font-family: 'Lato';
+  font-family: 'Fira Sans';
 }
 
 h1,
@@ -9,7 +9,7 @@ h4,
 h5,
 h6 {
   font-weight: 700;
-  font-family: 'Montserrat';
+  font-family: 'Fira Sans';
 }
 
 hr.star-light,
@@ -40,15 +40,15 @@ hr.star-light {
 
 hr.star-light:after {
   color: #fff;
-  background-color: #18BC9C;
+  background-color: #5b94d9;
 }
 
 hr.star-dark {
-  border-color: #2C3E50;
+  border-color: #343a40;
 }
 
 hr.star-dark:after {
-  color: #2C3E50;
+  color: #343a40;
   background-color: white;
 }
 
@@ -98,7 +98,7 @@ section h2 {
   padding-top: 1rem;
   padding-bottom: 1rem;
   font-weight: 700;
-  font-family: 'Montserrat';
+  font-family: 'Fira Sans';
 }
 
 #mainNav .navbar-brand {
@@ -115,7 +115,7 @@ section h2 {
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
-  color: #18BC9C;
+  color: #5b94d9;
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
@@ -123,7 +123,7 @@ section h2 {
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link.active {
-  color: #18BC9C;
+  color: #5b94d9;
 }
 
 #mainNav .navbar-toggler {
@@ -150,11 +150,11 @@ section h2 {
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
     color: #fff;
-    background: #18BC9C;
+    background: #5b94d9;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
     color: #fff;
-    background: #18BC9C;
+    background: #5b94d9;
   }
   #mainNav.navbar-shrink {
     padding-top: 0.5rem;
@@ -166,8 +166,8 @@ section h2 {
 }
 
 header.masthead {
-  padding-top: calc(6rem + 72px);
-  padding-bottom: 6rem;
+  padding-top: calc(3rem + 72px);
+  padding-bottom: 3rem;
 }
 
 header.masthead h1 {
@@ -177,13 +177,13 @@ header.masthead h1 {
 
 header.masthead h2 {
   font-size: 1.3rem;
-  font-family: 'Lato';
+  font-family: 'Fira Sans';
 }
 
 @media (min-width: 992px) {
   header.masthead {
-    padding-top: calc(6rem + 106px);
-    padding-bottom: 6rem;
+    padding-top: calc(3rem + 106px);
+    padding-bottom: 3rem;
   }
   header.masthead h1 {
     font-size: 4.75em;
@@ -210,7 +210,7 @@ header.masthead h2 {
   -moz-transition: all ease 0.5s;
   transition: all ease 0.5s;
   opacity: 0;
-  background-color: rgba(24, 188, 156, 0.9);
+  background-color: rgba(91, 148, 217, 0.9);
 }
 
 .portfolio .portfolio-item .portfolio-item-caption:hover {
@@ -313,7 +313,7 @@ header.masthead h2 {
 }
 
 .floating-label-form-group-with-focus label {
-  color: #18BC9C;
+  color: #5b94d9;
 }
 
 form .row:first-child .floating-label-form-group {
@@ -323,20 +323,20 @@ form .row:first-child .floating-label-form-group {
 .footer {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color: #2C3E50;
+  background-color: #343a40;
   color: #fff;
 }
 
 .copyright {
-  background-color: #1a252f;
+  background-color: #1d2124;
 }
 
 a {
-  color: #18BC9C;
+  color: #5b94d9;
 }
 
 a:focus, a:hover, a:active {
-  color: #128f76;
+  color: #3279cf;
 }
 
 .btn {
@@ -344,37 +344,37 @@ a:focus, a:hover, a:active {
 }
 
 .bg-primary {
-  background-color: #18BC9C !important;
+  background-color: #5b94d9 !important;
 }
 
 .bg-secondary {
-  background-color: #2C3E50 !important;
+  background-color: #343a40 !important;
 }
 
 .text-primary {
-  color: #18BC9C !important;
+  color: #5b94d9 !important;
 }
 
 .text-secondary {
-  color: #2C3E50 !important;
+  color: #343a40 !important;
 }
 
 .btn-primary {
-  background-color: #18BC9C;
-  border-color: #18BC9C;
+  background-color: #5b94d9;
+  border-color: #5b94d9;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background-color: #128f76;
-  border-color: #128f76;
+  background-color: #3279cf;
+  border-color: #3279cf;
 }
 
 .btn-secondary {
-  background-color: #2C3E50;
-  border-color: #2C3E50;
+  background-color: #343a40;
+  border-color: #343a40;
 }
 
 .btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active {
-  background-color: #1a252f;
-  border-color: #1a252f;
+  background-color: #1d2124;
+  border-color: #1d2124;
 }
